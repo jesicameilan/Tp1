@@ -1,0 +1,19 @@
+---
+title: "TP 1"
+author: "jesica"
+date: "27/6/2021"
+output: html_document
+---
+```{r}
+library(tidyverse)
+```
+
+```{r}
+terrenos_caba<- read.csv("Terrenos-en-venta-2020.csv")
+```
+
+
+```{r}
+summary(terrenos_caba)
+```
+
